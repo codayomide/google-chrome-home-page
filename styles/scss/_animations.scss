@@ -1,0 +1,14 @@
+@keyframes rotate {
+    from {transform: rotate(45deg);}
+    to {transform: rotate(720deg);}
+}
+
+@keyframes red-to-orange {
+    from {color: $red;}
+    to {color: $orange;}
+}
+
+@keyframes orange-to-red {
+    from {color: $orange;}
+    to {color: $red;}
+}

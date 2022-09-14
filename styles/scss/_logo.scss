@@ -1,0 +1,44 @@
+#logo {
+    margin-bottom: 2rem;
+    font-size: 0;
+    cursor: default;
+
+    span {
+        font-size: 5rem;
+        display: inline-block;
+
+        &:first-child {
+            color: $blue;
+            animation-name: rotate;
+            animation-duration: 2s;
+        }
+
+        &:nth-child(2) {
+            color: $red;
+            animation-name: orange-to-red;
+            animation-duration: 2s;
+        }
+
+        
+        &:nth-child(3) {
+            color: $orange;
+            animation-name: red-to-orange;
+            animation-duration: 2s;
+        }
+
+        
+        &:nth-child(4) {
+            color: $blue;
+        }
+
+        
+        &:nth-child(5) {
+            color: $green;
+        }
+
+        
+        &:last-child {
+            color: $red;
+        }
+    }
+}

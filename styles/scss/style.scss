@@ -1,0 +1,24 @@
+@import 'config';
+@import 'logo';
+@import 'search';
+@import 'shortcut';
+@import 'animations';
+
+body {
+    background-color: $white;
+    font-family: $font;
+}
+
+#container {
+    min-height: 100vh;
+    width: 55%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding-bottom: 3.5rem;
+}
+
